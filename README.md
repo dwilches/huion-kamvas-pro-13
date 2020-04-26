@@ -1,7 +1,7 @@
 Script to configure a Huion Kamvas Pro 13 in Ubuntu 20.04
 ---------
 
-# 1. Setting up DIGImend drivers
+### 1. Setting up DIGImend drivers
 
 Download the drivers from [this page](https://github.com/DIGImend/digimend-kernel-drivers). 
 I had to install them from sources with DKMS as the provided packages didn't work, but you may have more luck.
@@ -24,7 +24,7 @@ Bus 003 Device 013: ID 256c:006d  Tablet Monitor
 ...
 ```
 
-# 2. Stylus' target area
+### 2. Stylus' target area
 
 My main monitor has a resolution of 2560x1440 and is placed above the tablet (with no X offset), [like this](/docs/screen-config.jpg)
 
@@ -50,7 +50,7 @@ $ xsetwacom --get 16  Area
 
 For other area configurations, edit [this Python script](/xsetwacom_area_mapping.py) taken from [the original repo](https://github.com/linuxwacom/xf86-input-wacom/wiki/Area-mapping).
 
-# 3. Button mapping
+### 3. Button mapping
 
 This is my button setup for Blender:
 ```bash
@@ -83,7 +83,7 @@ $ xsetwacom set 18 Button 9 'key m'
 
 They may serve as examples so you can setup your preferred ones.
 
-# 4. After reboot
+### 4. After reboot
 
 These changes don't survive a reboot, so you can execute [this script](huion-setup.sh) to set the desired shortcuts each time it's needed.
 
