@@ -1,0 +1,37 @@
+blender:
+
+  Tablet Monitor Pen stylus:
+    button 3: key q
+
+  Tablet Monitor Pad pad:
+    button 1: key tab
+    button 2: key tab
+    button 3: key f
+    button 8: key shift f
+    button 9: key ctrl z
+
+
+blender-sculpt:
+
+  Tablet Monitor Pen stylus:
+    button 3: key q
+
+  Tablet Monitor Pad pad:
+    button 1: key ctrl
+    button 2: key shift
+    button 3: key f
+    button 8: key shift f
+    button 9: key ctrl z
+
+
+krita:
+
+  Tablet Monitor Pen stylus:
+    button 3: button 3
+
+  Tablet Monitor Pad pad:
+    button 1: key ctrl z
+    button 2: key e
+    button 3: key shift
+    button 8: key ctrl
+    button 9: key m

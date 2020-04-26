@@ -48,7 +48,7 @@ $ xsetwacom --get 16  Area
 0 -44064 78336 33048
 ```
 
-For other area configurations, edit [this Python script](/xsetwacom_area_mapping.py) taken from [the original repo](https://github.com/linuxwacom/xf86-input-wacom/wiki/Area-mapping).
+For other area configurations, edit [this Python script](/src/xsetwacom_area_mapping.py) taken from [the original repo](https://github.com/linuxwacom/xf86-input-wacom/wiki/Area-mapping).
 
 ### 3. Button mapping
 

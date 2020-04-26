@@ -2,4 +2,4 @@
 
 cd `dirname $0`
 source .venv/bin/activate
-python huion_setup.py $@
+python src/huion_setup.py $@
