@@ -31,7 +31,7 @@ Bus 003 Device 013: ID 256c:006d  Tablet Monitor
 
 # 2. Stylus' target area
 
-My main monitor has a resolution of 2560x1440 and is placed above the tablet (with no X offset):
+My main monitor has a resolution of 2560x1440 and is placed above the tablet (with no X offset), [like this](/docs/screen-config.jpg)
 
 So the following code worked to direct my stylus input to only the tablet's screen:
 
