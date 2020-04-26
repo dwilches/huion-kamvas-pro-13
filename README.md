@@ -1,10 +1,5 @@
-# huion-kamvas-pro-13
-xsetwacom script to configure a Huion Kamvas Pro 13
-
-Script to configure a Huion Kamvas Pro 13 in Ubuntu
+Script to configure a Huion Kamvas Pro 13 in Ubuntu 20.04
 ---------
-
-Tested in Ubuntu 20.04
 
 # 1. Setting up DIGImend drivers
 
